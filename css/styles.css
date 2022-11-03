@@ -29,6 +29,11 @@ h3, h2 {
     padding: 0px;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* header */
 
 .container {
@@ -211,8 +216,8 @@ header {
 /* features */
 .features-box {
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
     flex-wrap: wrap-reverse;
     justify-content: center;
 }
@@ -221,9 +226,13 @@ header {
     /* align-items: flex-start; */
     display: flex;
     gap: 30px;
-
-
+    
 }
+.list-feature {
+    width: 270px;
+}
+
+
 .features {
     letter-spacing: 0.03em;
     background: #F5F5F5;
@@ -272,7 +281,7 @@ header {
     justify-content: center;
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
     padding-left: 200px;
      padding-right: 200px;
 
@@ -303,7 +312,7 @@ header {
     justify-content: center;
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -322,7 +331,7 @@ header {
     text-align: center;
     margin: 0px;
      padding: 0px;
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-bottom: 50px;
     }
 
@@ -346,7 +355,7 @@ header {
 .team-people {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 /* footer */
 
@@ -408,7 +417,7 @@ header {
 }
 
 .filters-box {
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-bottom: 34px;
 
 }
@@ -473,7 +482,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 26px;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
     
    }
 
