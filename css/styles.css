@@ -19,10 +19,22 @@ ul {
 }
 
 /* header */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 .page-header {
     background: #FFFFFF;
     letter-spacing: 0.02em;
+    
+    
 }
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -31,17 +43,62 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    /* display: flex;
+    align-items: center; */
 }
 
 .logo-primary {
     color: #000000;
+
 
 }
 
 .logo-secondary {
     color: #FFFFFF;
 
-    /* nav */
+}
+/* nav */
+/* .nav-list {
+    display: flex;
+    align-items: center;
+
+}  */
+
+.header-block {
+    display: flex;
+    align-items: center;
+}
+
+.list-fededback {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-nav {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.site-nav .primary {
+    padding-left: 93px;
+}
+
+ .site-nav {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+ }
+/* .list-nav .site-nav   {
+    margin-right: 50px;
+    outline: 1px solid tomato;
+}
+
+.list-nav .site-nav:last-child {
+    margin-right: 0px;
+} */
+
+.site-nav + .site-nav {
+    margin-left: 50px;
 }
 
 .site-nav>a {
@@ -62,7 +119,13 @@ ul {
 
 }
 
-
+.list-fededback {
+    display: flex;
+   background-color:  tomato;
+}
+.feedback + .feedback {
+    margin-left: 50px;
+}
 
 .feedback>a {
     color: var(--paragraph-text-color);
@@ -76,7 +139,18 @@ ul {
     color: var(--secondary-color)
 }
 
+/* promo */
+
+.features-box {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 .promo {
+    text-align: center;
     background: #2F303A;
     letter-spacing: 0.06em;
 }
@@ -88,6 +162,11 @@ ul {
     line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
+    outline: 2px solid tomato;
+    margin: 0 0 30px;
+    padding: 0px;
+
+
 }
 
 .btn {
@@ -107,25 +186,43 @@ ul {
 .features {
     letter-spacing: 0.03em;
     background: #F5F5F5;
+    text-align: center;
 }
+.main-title {
+    display: none;
+    margin: 0px;
+    padding: 0px;
 
+}
 .title-features {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
 }
 
 .text-features {
     color: var(--paragraph-text-color);
     font-size: 14px;
     line-height: 1.71;
+    margin: 0px;
+    padding: 0px;
+
 }
+
+/* about */
 
 .about {
     background: #F5F5F5;
     letter-spacing: 0.03em;
+}
+.list-about {
+    margin: 0px;
+    padding: 0px;
+
 }
 
 .about-title {
@@ -134,20 +231,32 @@ ul {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+/* team */
+
+.list-team {
+    margin: 0px;
+    padding: 0px;
 }
 
 .team {
     background: #F5F4FA;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
-.team>h2 {
+.team h2 {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-}
+    margin: 0px;
+     padding: 0px;
+    }
+
 
 .title-team {
     color: var(--primary-text-color);
@@ -161,7 +270,10 @@ ul {
     color: var(--paragraph-text-color);
     font-size: 16px;
     line-height: 1.18;
+    margin: 0px;
+    padding: 0px;
 }
+/* footer */
 
 .footer {
     background: #2F303A;
@@ -230,3 +342,9 @@ ul {
     font-size: 16px;
     line-height: 2.25;
 }
+
+/* container */
+
+
+
+   
