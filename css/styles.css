@@ -20,12 +20,13 @@ ul {
 
 /* header */
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     outline: 2px solid tomato;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 
 
 .page-header {
@@ -43,6 +44,7 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-left: 215px;
     /* display: flex;
     align-items: center; */
 }
@@ -67,9 +69,10 @@ ul {
 .header-block {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.list-fededback {
+.list-feedback {
     margin: 0px;
     padding: 0px;
 }
@@ -79,8 +82,8 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-.site-nav .primary {
-    padding-left: 93px;
+.list-nav {
+    margin-left: 93px;
 }
 
  .site-nav {
@@ -119,9 +122,10 @@ ul {
 
 }
 
-.list-fededback {
+.list-feedback {
     display: flex;
-   background-color:  tomato;
+    margin-left: auto;
+    margin-right: 215px;
 }
 .feedback + .feedback {
     margin-left: 50px;
