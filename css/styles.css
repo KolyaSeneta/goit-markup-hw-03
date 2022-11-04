@@ -2,6 +2,7 @@
     --primary-text-color: #212121;
     --paragraph-text-color: #757575;
     --secondary-color: #2196F3;
+    --bg-white: #F5F5F5;;
 }
 
 body {
@@ -235,7 +236,7 @@ header {
 
 .features {
     letter-spacing: 0.03em;
-    background: #F5F5F5;
+    background: #FFFFFF;
     /* text-align: center; */
     /* align-items:center; */
 }
@@ -268,7 +269,7 @@ header {
 /* about */
 
 .about {
-    background: #F5F5F5;
+    background: #FFFFFF;
     letter-spacing: 0.03em;
     display: block;
     /* align-items: center; */
@@ -304,6 +305,7 @@ header {
     display: block;
     /* padding-top: 94px;
     padding-bottom: 94px; */
+    background: #F5F4FA;
 }
 
 .list-team {
@@ -341,6 +343,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    padding-bottom: 10px;
 
 }
 
@@ -377,6 +380,7 @@ header {
         line-height: 1.19;
         letter-spacing: 0.03em;
         margin-top: 60px;
+        margin-bottom: 20px;
     
 }
 
@@ -390,6 +394,12 @@ header {
     font-size: 14px;
     line-height: 1.71;
 }
+.addrres {
+    padding-bottom: 9px;
+}
+.feedback-footer + .feedback-footer {
+    padding-top: 9px;
+}
 
 .addrres :hover,
 .addrres :focus {
@@ -402,6 +412,7 @@ header {
     font-size: 14px;
     line-height: 1.71;
 }
+
 
 .feedback-footer :hover,
 .feedback-footer :focus {
@@ -418,7 +429,7 @@ header {
 
 .filters-box {
     /* padding-top: 94px; */
-    padding-bottom: 34px;
+    padding-bottom: 50px;
 
 }
 
@@ -460,12 +471,14 @@ header {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    padding-bottom: 8px;
 }
 
 .portfolio-text {
     color: var(--paragraph-text-color);
     font-size: 16px;
     line-height: 2.25;
+
 }
 
 
@@ -489,4 +502,16 @@ header {
    .portfoli-item {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+   }
+
+   .porfolio-box {
+    padding: 20px  24px;
+   }
+
+   .portfolio-title {
+    padding-bottom: 8px;
+   }
+   .team-box {
+    padding: 30px;
+    
    }
