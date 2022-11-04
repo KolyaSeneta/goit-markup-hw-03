@@ -13,6 +13,8 @@ body {
 
 a {
     text-decoration: none;
+    /* padding: 0px;
+    margin: 0px; */
 }
 
 ul {
@@ -53,6 +55,7 @@ header {
 .page-header {
     background: #FFFFFF;
     letter-spacing: 0.02em;
+    /* margin-bottom: 50px; */
     /* border-bottom: border: 1px solid #ECECEC; */
     
     
@@ -365,6 +368,8 @@ header {
 .footer {
     background: #2F303A;
     letter-spacing: 0.03em;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
@@ -384,10 +389,10 @@ header {
     
 }
 
-.footer-box {
+/* .footer-box {
     padding-top: 60px;
     padding-bottom: 60px;
-}
+} */
 .addrres>a {
     color: #FFFFFF;
     font-style: normal;
@@ -425,12 +430,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 8px;
-}
-
-.filters-box {
-    /* padding-top: 94px; */
-    padding-bottom: 50px;
-
+    margin-bottom: 50px;
 }
 
 
@@ -494,18 +494,26 @@ header {
    .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 26px;
+    gap: 30px;
     /* padding-bottom: 94px; */
     
    }
 
    .portfoli-item {
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    /* border: 1px solid #EEEEEE; */
+    /* outline: 1px solid #EEEEEE;  */
+    display: block;
    }
 
    .porfolio-box {
     padding: 20px  24px;
+    border: 1px solid #EEEEEE;
+    /* border-right: 1px  #EEEEEE;
+    border-left: 1px #EEEEEE;
+    border-bottom: 1px #EEEEEE; */
+    /* outline: 1px #EEEEEE; */
+    border-top: none;
    }
 
    .portfolio-title {
@@ -514,4 +522,10 @@ header {
    .team-box {
     padding: 30px;
     
+   }
+
+   .portfoli-item >a {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
    }
